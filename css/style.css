@@ -1,0 +1,113 @@
+
+body {
+
+    font-family: 'Georgia', serif; 
+
+    background-color: #e6ddbb;
+
+    color: #333;
+
+ 
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    margin: 0;
+
+}
+
+ 
+
+ 
+
+
+
+.recipe-card {
+
+    width: 350px; 
+
+    background-color: #f5f7f6;
+
+    border-radius: 15px; 
+
+   
+
+   
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+   
+
+    
+    overflow: hidden;
+
+}
+
+ 
+
+ 
+
+
+
+.recipe-image {
+
+    
+
+    width: 100%;
+
+   
+
+    
+
+    display: block;
+
+}
+
+ 
+
+ 
+
+
+
+.recipe-content {
+
+    
+
+    padding: 25px;
+
+}
+
+ 
+
+.recipe-title {
+
+    font-size: 1.5rem; 
+
+    color: #050505;
+
+    margin-top: 0;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.recipe-description {
+
+    font-size: 1rem; 
+
+    line-height: 1.5; 
+
+    color: #010101;
+
+    margin-bottom: 0; 
+
+}
+
+
